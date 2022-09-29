@@ -1,0 +1,246 @@
+    /************ 
+//--------------------------------
+// GENERAL
+//-------------------------------
+************/
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #666;
+	background: #222a36; 
+	font-size: 1em;
+	line-height: 1.5em;
+	
+	padding-top: 80px;
+}
+
+h1 {
+	font-size: 3.3em;
+  line-height: 1.7em;
+	margin: 15px 0;
+	text-align: center;
+	font-weight: 300;
+	font-family: 'Montserrat', sans-serif;
+font-family: 'Space Mono', monospace;
+}
+
+h2 {
+	font-size: 2.3em;
+  line-height: 1.7em;
+	margin: 15px 0;
+	text-align: center;
+	font-weight: 300;
+	font-family: 'Montserrat', sans-serif;
+font-family: 'Space Mono', monospace;
+}
+
+p {
+	margin: 0 0 1.5em 0;
+}
+
+.fuente {
+	font-family: Verdana;
+
+}
+
+/************ 
+//-------------------------------
+// CABECERA
+//-------------------------------
+************/
+#main-header {
+	background: #192537;
+	color: rgb(255, 255, 255);
+	height: 80px;
+	width: 100%;
+	left: 0;
+	top: 0;
+	position: fixed;
+	border: 1px solid #213046;
+	z-index: 1;
+}		
+	#main-header a {
+		color: white;
+        font-size: medium;
+	}
+	
+	
+	
+/*
+ * Logo
+ */
+#logo-header {
+	float: left;
+	padding: 15px 0 0 20px;
+	text-decoration: none;
+}
+	#logo-header:hover {
+		color: #ff9900;
+	}
+	
+	#logo-header .site-name {
+		display: block;
+		font-weight: 700;
+		font-size: 1.2em;
+	}
+	
+	#logo-header .site-desc {
+		display: block;
+		font-weight: 300;
+		font-size: 0.8em;
+		color: #999;
+	}
+	
+
+/*
+ * Navegación
+ */
+nav {
+	float: right;
+}
+	nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		padding-right: 20px;
+	}
+	
+		nav ul li {
+			display: inline-block;
+			line-height: 80px;
+		}
+			
+			nav ul li a {
+				display: block;
+				padding: 0 10px;
+				text-decoration: none;
+			}
+			
+				nav ul li a:hover {
+					background: #ff697d;
+				}
+	
+
+
+
+/************ 
+//------------------------------
+// CONTENIDO
+//------------------------------
+************/
+
+#main-content {
+	background: #222a36;
+	width: 100%;
+	max-width: 800px auto;
+	margin: 9px auto;
+}
+
+	#main-content header,
+	#main-content .content {
+		padding: 40px;
+	}
+	
+    .imagenes img{
+        margin: 37px;
+        width: 370px;
+        display: inline-block;
+        }
+
+		.center {
+			text-align: center;
+		  }
+
+
+/*
+ * Slider
+ */
+
+  
+ .container{
+    margin: auto;
+    background-color: #222a36;
+    width: 100%;
+    padding: 20px;
+	z-index: 0;
+  }
+  
+  ul, li {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+  }
+  
+  ul.slider{
+    position: relative;
+    width: 100%;
+    height: 500px;
+  }
+  
+  ul.slider li {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      opacity: 0;
+      width: inherit;
+      height: inherit;
+      transition: opacity .5s;
+      background:#fff;
+  }
+  
+  ul.slider li img{
+    width: 100%;
+    height: 500px;
+    
+  }
+  
+  ul.slider li:first-child {
+      opacity: 1; /*Mostramos el primer <li>*/
+  }
+  
+  ul.slider li:target {
+      opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
+  }
+  
+  .menu{
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .menu li{
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .menu li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: grey;
+    padding: 3px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 100%;
+  }
+
+.mapa {
+	margin: auto;
+    background-color: #222a36;
+    width: 100%;
+    padding: 20px;
+	z-index: 0;
+
+}
+
+
+  
+
+/************
+//-----------------------------
+// PIE PÁGINA
+//-----------------------------
+************/
+ 
+
